@@ -1,6 +1,6 @@
 'strict mode';
 
-const textHeight = 32;
+const textHeight = 34;
 const textCanvas = document.createElement('canvas');
 //document.body.appendChild(textCanvas);
 //textCanvas.style.position = "fixed";
