@@ -1,5 +1,10 @@
 'use strict';
 
+// Disable touch move to prevent scrolling on mobile browsers
+document.addEventListener('touchmove', function(event) {
+	event.preventDefault();
+	}, { passive: false });
+
 var useReflexion = true;
 var showStats = false;
 
