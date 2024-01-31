@@ -94,3 +94,8 @@ regl.frame(({
 	});
 	stats.end();
 });
+
+// Delayed alert to show after rendering
+setTimeout(() => {
+    alert("Welcome to the A School Gallery\n\n_Click the floor to move around the space\n_Browse through works created by your peers\n_Email your image and title to ccp7gcp to have your work displayed :)");
+}, 200);
