@@ -1,10 +1,14 @@
 'use strict';
 
-const mapSize = 6; // Log2 of the grid size (keep the value between [1, 6])
+const mapSize = 1; // Log2 of the grid size (keep the value between [1, 6])
 const cellSize = 8; // Size of the rooms
 const mapHeight = 7; // Height of the walls
 const wallThickness = 0.25; // Wall thickness
 const wallRemoval = 0.5; // Random wall removal proportion
+
+const seedrandom = require('seedrandom'); // Import the seedrandom library
+const seed = 21;
+const rng = seedrandom(seed);
 
 const transform = (a, r, tx, ty, o = 1) => a.map((v) => [(o * v[r] + tx) / 2, (o * v[1 - r] + ty) / 2]);
 
@@ -60,6 +64,8 @@ function genBorder(n, w, m) {
 	console.time('rnd wall');
 	for (let i = 0; i < m; i++) {
 		let r = Math.floor(Math.random() * (nodes.length - 3));
+		// To make the map the same each time
+		//let r = Math.floor(rng() * (nodes.length - 3));
 		while (nodes[r + 1].s !== -1 || nodes[r + 2].s !== -1) r = (r + 1) % (nodes.length - 3);
 		removeWall(r);
 	}
