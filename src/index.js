@@ -97,5 +97,5 @@ regl.frame(({
 
 // Delayed alert to show after rendering
 setTimeout(() => {
-    alert("WELCOME TO THE A SCHOOL GALLERY\n\n  On mobile, tap the floor to navigate around the space\n\n  Browse through works created by your peers\n\n  Email your image and title to ccp7gcp to have your work displayed :)");
+    alert("WELCOME TO THE A SCHOOL GALLERY\n\nOn mobile, tap the floor to navigate around the space\n\nBrowse through works created by your peers\n\nEmail your image and title to ccp7gcp to have your work displayed :)");
 }, 200);
