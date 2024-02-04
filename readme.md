@@ -1,31 +1,14 @@
-# [Virtual Art Gallery](https://cielcp.github.io/design-thinking-gallery/build) [![Build Status](https://cielcp.github.io/design-thinking-gallery/actions/workflows/build-and-deploy.yml/badge.svg)](https://cielcp.github.io/design-thinking-gallery/actions/workflows/build-and-deploy.yml)
+# [Virtual Art Gallery](https://cielcp.github.io/design-thinking-gallery/build)
 
 [![screenshot](ArtGallery.png "App screenshot")](https://cielcp.github.io/design-thinking-gallery/build)
 
 ## Description
 
-This project simulates an art gallery in your browser using [REGL](https://github.com/regl-project/regl).
-It aims at reproducing the experience of a real art gallery.
-The architecture is generated using a 10km long 6th order [Hilbert Curve](https://en.wikipedia.org/wiki/Hilbert_curve).
-The paintings are asynchronously loaded from the [ARTIC](https://api.artic.edu) and placed on the walls.
-You can use this project to display your own artworks.
+This project is forked from (https://github.com/ClementCariou/virtual-art-gallery).
 
-## Setup
+I am currently using this repo as part of a project for my Design Thinking course (https://arch20703070.cargo.site). This project will be exhibited at the UVA Architecture School's weekly series of Coffee + Community events, which was established after the tragic shooting on Nov 13th, 2022. These events aim to foster a sense of community and promote student wellbeing.
 
-Installation :
-```shell
-git clone https://github.com/ClementCariou/virtual-art-gallery.git
-npm install
-```
-Start the budo dev server : 
-```shell
-npm start
-```
-Build : 
-```shell
-npm build
-```
+I have altered the original code to display submitted work from A School students, include instructions for how to navigate the virtual space, and be mobile browser friendly.
 
-## Using it with [local images](https://clementcariou.github.io/virtual-art-gallery/build?api=local)
+Thank you again to Clement Cariou for sharing a wonderful open source project.
 
-The local api is accessible using this URI params in the address bar: ```?api=local``` (it's possible to load automatically this API by changing the default API in the [api.js](api/api.js) file). You can change the displayed images in the folder [images](images), you will need to rebuild the project (or relauch the dev server) to apply the modifications.
