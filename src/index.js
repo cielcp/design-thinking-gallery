@@ -97,5 +97,5 @@ regl.frame(({
 
 // Delayed alert to show after rendering
 setTimeout(() => {
-    alert("HAPPY BIRTHDAY KEVIN <3\n\ni am so grateful to have you, my sweet, supportive, n lovely boyfriend. ty for being my partner, my duo, and my housewife. i love u so very much\n\nciel");
+    alert("HAPPY BIRTHDAY KEVIN <3\n\nto my sweet, supportive, n lovely boyfriend,\n i am so grateful to have you. ty for being my partner, my duo, and my housewife. i hope you enjoy this collection of our memories. i love u so very much\n-ciel\np.s. click the floor to move on mobile");
 }, 200);
