@@ -97,5 +97,5 @@ regl.frame(({
 
 // Delayed alert to show after rendering
 setTimeout(() => {
-    alert("WELCOME TO THE A SCHOOL GALLERY\n\n1. Tap the floor to move\n\n2. Browse through works created by your peers\n\n3. Email your works to ccp7gcp to have them displayed!");
+    alert("HAPPY BIRTHDAY KEVIN <3\n\ni am so grateful to have you, my sweet, supportive, n lovely boyfriend. ty for being my partner, my duo, and my housewife. i love u so very much\n\nciel");
 }, 200);
