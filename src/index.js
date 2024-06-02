@@ -97,5 +97,5 @@ regl.frame(({
 
 // Delayed alert to show after rendering
 setTimeout(() => {
-    alert("to my lovely boyfriend,\ni am so grateful to have you. ty for being my partner, my duo, and my housewife. i hope you enjoy this collection of memories from 21.\n\nso much love,\nciel\n\np.s. click the floor to move on mobile!");
+    alert("to my lovely boyfriend,\n\ni am so grateful for you! ty for being my partner, duo, chauffeur, chef, etc. i hope you enjoy this collection of memories from 21.\n\nso much love,\nciel");
 }, 200);
